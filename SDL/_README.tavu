@@ -1,0 +1,18 @@
+Linux :
+	sudo apt-get install libsdl2-dev
+	cp mkfl_dir/Makefile_linux .
+	mv Makefile_linux Makefile
+
+	edit lib/fractol.h, uncomment the "linux" line and save
+
+	make
+
+Macos :
+	mkdir $HOME/Library/Frameworks
+	cp -r lib/SDL2.framework $HOME/Library/Frameworks
+	cp mkfl_dir/Makefile_macos .
+	mv Makefile_macos Makefile
+
+	edit lib/fractol.h, uncomment the "macos" line and save
+
+	make
