@@ -27,7 +27,7 @@ void		motion_events(t_env *w)
 
 	if (w->fractal_mod == 2)
 	{
-		w->crealp = (((double)MOUSE.x - WIDTH / 2) / (WIDTH / 2)) - 0.5;
+		w->crealp = (((double)MOUSE.x - WIDTH / 2) / (WIDTH / 2));
 		w->cimg = (((double)MOUSE.y - HEIGHT / 2) / (HEIGHT / 2)) / 0.7;
 	}
 	w->xsouris = ((double)MOUSE.x - WIDTH / 2) * 2 / (WIDTH * w->zoom) * -1;

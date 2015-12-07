@@ -55,5 +55,6 @@ void		dance(t_env *w)
 		SDL_RenderPresent(w->rdr);
 		w->inkeys = SDL_GetKeyboardState(NULL);
 		key_events(w);
+		SDL_Delay(8);
 	}
 }
