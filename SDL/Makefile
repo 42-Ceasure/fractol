@@ -16,7 +16,7 @@ CC = gcc
 
 CFLAG = -Wall -Wextra -Werror
 
-NAME = ../fractol_SDL
+NAME = fractol
 
 SRCDIR=		./src/
 SRC=		color.c\
